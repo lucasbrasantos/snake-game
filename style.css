@@ -1,0 +1,38 @@
+body{
+	font-family: 'RocknRoll One';
+	font-size: 26px;
+	text-align: center;
+	background: #F4F9D4;
+	height: 94vh;
+	width: 95;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	margin-top: 0;
+}
+
+#snake{
+	border: 3px solid black;
+	margin-top: 0;
+}
+
+.controles img{
+	width: 130px;
+}
+
+.texto-lado{
+	text-transform: uppercase;
+	position: absolute;
+	right: 150px;
+	top: 100px;
+	text-align: center;
+}
+
+.game{
+	position: absolute;
+	right: 40%;
+}
